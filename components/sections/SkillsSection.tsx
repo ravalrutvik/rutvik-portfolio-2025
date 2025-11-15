@@ -31,7 +31,7 @@ const skillCategories = [
   },
   {
     title: "Deployment Platforms",
-    skills: ["Vercel","Vite"],
+    skills: ["Vercel",],
   },
 ];
 

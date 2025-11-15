@@ -21,7 +21,7 @@ const geistMono = Geist_Mono({
   display: "swap",
 });
 
-const siteUrl = "https://ravalrutvik.dev";
+const siteUrl = "https://rutvik-raval.vercel.app/";
 const title = "Raval Rutvik | Frontend Developer Portfolio | React.js & Next.js Expert";
 const description =
   "Professional Frontend Developer specializing in React.js, Next.js, JavaScript, and modern web development. Expert in UI/UX Frontend Engineering, Responsive Web Development, and Tailwind CSS. Building high-performance web applications and professional frontend solutions.";

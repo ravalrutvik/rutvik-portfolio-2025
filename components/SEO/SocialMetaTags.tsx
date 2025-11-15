@@ -1,5 +1,5 @@
 export function SocialMetaTags() {
-  const siteUrl = "https://ravalrutvik.dev";
+  const siteUrl = "https://rutvik-raval.vercel.app/";
   const title = "Raval Rutvik | Professional Frontend Developer | React.js & Next.js Expert";
   const description =
     "Professional Frontend Developer and React.js Developer specializing in Next.js, JavaScript, and modern web development. Expert UI/UX Frontend Engineer creating responsive web applications with Tailwind CSS.";

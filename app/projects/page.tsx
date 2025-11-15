@@ -27,13 +27,13 @@ export const metadata: Metadata = {
     title: "Rutvik Raval | React.js & Next.js Project Portfolio",
     description:
       "Dive into production-grade projects delivered by Rutvik Raval, showcasing frontend expertise across logistics, SaaS, and e-commerce domains.",
-    url: "https://ravalrutvik.dev/projects",
+    url: "https://rutvik-raval.vercel.app/projects",
     siteName: "Raval Rutvik Portfolio",
     locale: "en_US",
     type: "article",
     images: [
       {
-        url: "https://ravalrutvik.dev/profile-placeholder.jpeg",
+        url: "https://rutvik-raval.vercel.app/profile-placeholder.jpeg",
         width: 1200,
         height: 630,
         alt: "Raval Rutvik - Professional Frontend Developer Projects",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     title: "Projects | Raval Rutvik - Frontend Developer",
     description:
       "Browse select React.js and Next.js builds delivered by freelance frontend developer Rutvik Raval.",
-    images: ["https://ravalrutvik.dev/profile-placeholder.jpeg"],
+    images: ["https://rutvik-raval.vercel.app/profile-placeholder.jpeg"],
   },
   category: "Technology",
 };

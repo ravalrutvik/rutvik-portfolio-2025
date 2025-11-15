@@ -1,5 +1,5 @@
 export function StructuredData() {
-  const siteUrl = "https://ravalrutvik.dev";
+  const siteUrl = "https://rutvik-raval.vercel.app/";
   
   const personSchema = {
     "@context": "https://schema.org",

@@ -50,13 +50,13 @@ export const metadata: Metadata = {
     title: "Frontend Developer in Surat | React.js & Next.js Developer | Raval Rutvik",
     description:
       "Professional Frontend Developer and React.js Developer based in Surat, India. Specializing in Next.js Development, JavaScript Development, and Modern Web Development. Expert UI/UX Frontend Engineer creating responsive web applications.",
-    url: "https://ravalrutvik.dev",
+    url: "https://rutvik-raval.vercel.app/",
     siteName: "Raval Rutvik Portfolio",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://ravalrutvik.dev/profile-placeholder.jpeg",
+        url: "https://rutvik-raval.vercel.app/profile-placeholder.jpeg",
         width: 1200,
         height: 630,
         alt: "Raval Rutvik - Professional Frontend Developer | React.js & Next.js Expert",
@@ -69,7 +69,7 @@ export const metadata: Metadata = {
     title: "Raval Rutvik | Professional Frontend Developer | React.js & Next.js Expert",
     description:
       "Professional Frontend Developer specializing in React.js, Next.js, JavaScript, and modern web development. Expert UI/UX Frontend Engineer creating responsive web applications with Tailwind CSS.",
-    images: ["https://ravalrutvik.dev/profile-placeholder.jpeg"],
+    images: ["https://rutvik-raval.vercel.app/profile-placeholder.jpeg"],
   },
   category: "Technology",
 };

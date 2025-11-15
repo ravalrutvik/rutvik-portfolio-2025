@@ -1,0 +1,19 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#020617" />
+  <g filter="url(#glow)">
+    <circle cx="300" cy="200" r="260" fill="#1D4ED8" fill-opacity="0.25"/>
+    <circle cx="900" cy="380" r="240" fill="#38BDF8" fill-opacity="0.18"/>
+  </g>
+  <text x="120" y="300" fill="#E2E8F0" font-size="72" font-family="Geist, 'Segoe UI', sans-serif" font-weight="600">Raval Rutvik</text>
+  <text x="120" y="380" fill="#60A5FA" font-size="36" font-family="Geist, 'Segoe UI', sans-serif" font-weight="500">Frontend Developer</text>
+  <text x="120" y="450" fill="#94A3B8" font-size="28" font-family="Geist, 'Segoe UI', sans-serif" font-weight="400">
+    Crafting modern web experiences with React &amp; Next.js
+  </text>
+  <defs>
+    <filter id="glow" x="-200" y="-200" width="1600" height="1030" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="80" result="blur"/>
+    </filter>
+  </defs>
+</svg>
+
+

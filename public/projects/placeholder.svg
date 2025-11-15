@@ -1,0 +1,31 @@
+<svg width="1200" height="750" viewBox="0 0 1200 750" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <radialGradient id="glow" cx="30%" cy="15%" r="65%">
+      <stop offset="0%" stop-color="rgba(56,189,248,0.45)" />
+      <stop offset="100%" stop-color="rgba(56,189,248,0)" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="750" fill="url(#gradient)" />
+  <rect width="1200" height="750" fill="url(#glow)" />
+  <g fill="rgba(248,250,252,0.08)">
+    <rect x="180" y="210" width="280" height="330" rx="28" />
+    <rect x="520" y="210" width="500" height="150" rx="28" />
+    <rect x="520" y="390" width="220" height="150" rx="28" />
+    <rect x="760" y="390" width="260" height="150" rx="28" />
+  </g>
+  <g fill="#38bdf8">
+    <circle cx="210" cy="180" r="8" />
+    <circle cx="238" cy="180" r="8" />
+    <circle cx="266" cy="180" r="8" />
+  </g>
+  <text x="600" y="650" font-family="Inter, Arial, sans-serif" font-size="32" fill="rgba(148,163,184,0.75)" text-anchor="middle" letter-spacing="8">
+    PROJECT PREVIEW
+  </text>
+</svg>
+
+

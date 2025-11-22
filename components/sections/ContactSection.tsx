@@ -1,17 +1,12 @@
-"use client";
-
-import Link from "next/link";
 import { SectionHeading } from "../SectionHeading";
-import { useSectionReveal } from "@/lib/hooks/useSectionReveal";
 
 export function ContactSection() {
-  const sectionRef = useSectionReveal();
 
   return (
     <section
-      ref={sectionRef}
+      // ref={sectionRef}
       id="contact"
-      className="section-reveal rounded-4xl border border-[var(--border-subtle)] bg-[var(--surface-panel)] p-4 text-[var(--text-primary)] shadow-[0_20px_80px_-50px_var(--shadow-soft)] sm:p-12"
+      className="rounded-4xl border border-[var(--border-subtle)] bg-[var(--surface-panel)] p-4 text-[var(--text-primary)] shadow-[0_20px_80px_-50px_var(--shadow-soft)] sm:p-12"
     >
       <SectionHeading
         eyebrow="Contact"

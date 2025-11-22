@@ -1,7 +1,4 @@
-"use client";
-
 import { SectionHeading } from "../SectionHeading";
-import { useSectionReveal } from "@/lib/hooks/useSectionReveal";
 
 const experiences = [
   {
@@ -34,13 +31,12 @@ const experiences = [
 ] as const;
 
 export function ExperienceSection() {
-  const sectionRef = useSectionReveal();
 
   return (
     <section
-      ref={sectionRef}
+      // ref={sectionRef}
       id="experience"
-      className="section-reveal relative overflow-hidden rounded-3xl border border-[var(--border-subtle)] bg-[var(--surface-panel)] px-4 py-10 sm:rounded-4xl sm:p-12"
+      className="relative overflow-hidden rounded-3xl border border-[var(--border-subtle)] bg-[var(--surface-panel)] px-4 py-10 sm:rounded-4xl sm:p-12"
     >
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_5%_15%,color-mix(in_srgb,var(--accent)_4%,transparent),transparent_55%),radial-gradient(circle_at_90%_85%,color-mix(in_srgb,var(--accent)_4%,transparent),transparent_60%)]" />
       <div className="relative z-10">

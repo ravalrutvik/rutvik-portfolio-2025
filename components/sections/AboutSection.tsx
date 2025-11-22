@@ -1,7 +1,4 @@
-"use client";
-
 import { SectionHeading } from "../SectionHeading";
-import { useSectionReveal } from "@/lib/hooks/useSectionReveal";
 
 const highlights = [
   {
@@ -37,13 +34,13 @@ const pillars = [
 ] as const;
 
 export function AboutSection() {
-  const sectionRef = useSectionReveal();
+  // const sectionRef = useSectionReveal();
 
   return (
     <section
-      ref={sectionRef}
+      // ref={sectionRef}
       id="about"
-      className="section-reveal relative overflow-hidden rounded-4xl border border-[var(--border-subtle)] bg-[var(--surface-panel)] p-10 text-[var(--text-primary)] sm:p-12"
+      className="relative overflow-hidden rounded-4xl border border-[var(--border-subtle)] bg-[var(--surface-panel)] p-10 text-[var(--text-primary)] sm:p-12"
     >
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_10%_15%,color-mix(in srgb,var(--accent) 6%,transparent),transparent_55%),radial-gradient(circle_at_85%_80%,color-mix(in srgb,var(--accent) 5%,transparent),transparent_60%)]" />
       <div className="relative z-10">

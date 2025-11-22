@@ -1,17 +1,13 @@
-"use client";
-
 import Image from "next/image";
 import Link from "next/link";
 import type { SVGProps } from "react";
-import { useSectionReveal } from "@/lib/hooks/useSectionReveal";
 
 export function HeroSection() {
-  const sectionRef = useSectionReveal();
-
   return (
     <section
-      ref={sectionRef}
-      className="section-reveal relative overflow-hidden rounded-2xl border border-(--border-subtle) bg-(--surface-panel) px-4 py-8 text-(--text-primary) shadow-[0_60px_160px_-70px_var(--shadow-soft)] sm:rounded-[2.5rem] sm:px-8 sm:py-14 lg:px-16 lg:py-20"
+      // ref={sectionRef}
+      // section-reveal
+      className="relative overflow-hidden rounded-2xl border border-(--border-subtle) bg-(--surface-panel) px-4 py-8 text-(--text-primary) shadow-[0_60px_160px_-70px_var(--shadow-soft)] sm:rounded-[2.5rem] sm:px-8 sm:py-14 lg:px-16 lg:py-20"
     >
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_15%_20%,color-mix(in_srgb,var(--accent)_6%,transparent),transparent_55%)]" />
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_85%_25%,color-mix(in_srgb,var(--accent)_4%,transparent),transparent_60%)]" />

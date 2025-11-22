@@ -1,19 +1,15 @@
-"use client";
-
 import Image from "next/image";
 import Link from "next/link";
 import { SectionHeading } from "../SectionHeading";
 import { projects } from "@/lib/data";
-import { useSectionReveal } from "@/lib/hooks/useSectionReveal";
 
 export function ProjectsPreviewSection() {
-  const sectionRef = useSectionReveal();
 
   return (
     <section
-      ref={sectionRef}
+      // ref={sectionRef}
       id="projects"
-      className="section-reveal rounded-4xl border border-[var(--border-subtle)] bg-[var(--surface-panel)] p-4 text-[var(--text-primary)] sm:p-12"
+      className="rounded-4xl border border-[var(--border-subtle)] bg-[var(--surface-panel)] p-4 text-[var(--text-primary)] sm:p-12"
     >
       <SectionHeading
         eyebrow="Projects"

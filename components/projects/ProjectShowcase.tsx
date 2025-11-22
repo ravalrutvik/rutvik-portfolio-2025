@@ -1,9 +1,5 @@
-"use client";
-
 import Image from "next/image";
-import Link from "next/link";
 import { projects } from "@/lib/data";
-import { useSectionReveal } from "@/lib/hooks/useSectionReveal";
 
 function ProjectVisual({
   image,
@@ -76,12 +72,12 @@ function ProjectVisual({
 type Project = (typeof projects)[number];
 
 function ProjectCard({ project }: { project: Project }) {
-  const articleRef = useSectionReveal();
+  // const articleRef = useSectionReveal();
 
   return (
     <article
-      ref={articleRef}
-      className="section-reveal group relative overflow-hidden rounded-4xl border border-(--border-subtle) bg-(--surface-panel) p-8 shadow-[0_40px_160px_-90px_var(--shadow-soft)] transition-all duration-1000 ease-[cubic-bezier(0.22,1,0.36,1)] hover:-translate-y-1 hover:border-[var(--border-strong)] hover:shadow-[0_55px_200px_-100px_var(--shadow-soft)] sm:p-10 lg:p-12"
+      // ref={articleRef}
+      className="group relative overflow-hidden rounded-4xl border border-(--border-subtle) bg-(--surface-panel) p-8 shadow-[0_40px_160px_-90px_var(--shadow-soft)] transition-all duration-1000 ease-[cubic-bezier(0.22,1,0.36,1)] hover:-translate-y-1 hover:border-[var(--border-strong)] hover:shadow-[0_55px_200px_-100px_var(--shadow-soft)] sm:p-10 lg:p-12"
     >
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top_left,color-mix(in_srgb,var(--accent)_3%,transparent),transparent_55%)] opacity-80 transition-opacity duration-1000 ease-[cubic-bezier(0.22,1,0.36,1)] group-hover:opacity-100" />
       <div className="flex flex-col gap-10 lg:grid lg:grid-cols-[minmax(0,1.05fr)_minmax(0,1fr)] lg:items-start lg:gap-12">

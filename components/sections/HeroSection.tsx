@@ -127,7 +127,7 @@ export function HeroSection() {
                   <p className="text-[0.65rem] font-semibold uppercase tracking-[0.28em] text-[var(--text-secondary)] sm:text-xs">
                     Experience
                   </p>
-                  <p className="mt-1.5 text-xl font-semibold text-[var(--text-primary)] sm:mt-2 sm:text-2xl">2+ yrs</p>
+                  <p className="mt-1.5 text-xl font-semibold text-[var(--text-primary)] sm:mt-2 sm:text-2xl">3+ yrs</p>
                 </div>
                 <div className="rounded-xl border border-[var(--border-subtle)] bg-[var(--surface-card)] p-3 text-left sm:rounded-2xl sm:p-4">
                   <p className="text-[0.65rem] font-semibold uppercase tracking-[0.28em] text-[var(--text-secondary)] sm:text-xs">
